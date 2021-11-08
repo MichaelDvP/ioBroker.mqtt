@@ -127,8 +127,14 @@ The broker was tested with following clients:
 * queue packets with `QoS 1/2` for the offline clients with the persistent session.
   [Read here](https://www.hivemq.com/blog/mqtt-essentials-part-7-persistent-session-queuing-messages)
 
+<!--
+	Placeholder for the next version (at the beginning of the line):
+	### __WORK IN PROGRESS__
+-->
 
 ## Changelog
+### 2.4.1 (2021-11-08)
+* (MichaelDvP) Added wildcard regex for "/#"
 
 ### 2.4.0 (2021-05-09)
 * (Apollon77) only remember the last message per topic for offline clients that subscribed the topics when using persistent sessions
@@ -157,7 +163,7 @@ The broker was tested with following clients:
 * (FunCyRanger) Add option to ignore SSL validation errors
 
 ### 2.1.14 (2020-11-30)
-* (Apollon77) Prevent crash case (Sentry IOBROKER-MQTT-11) 
+* (Apollon77) Prevent crash case (Sentry IOBROKER-MQTT-11)
 
 ### 2.1.13 (2020-11-16)
 * (Apollon77) Prevent crash case (Sentry IOBROKER-MQTT-Q)
@@ -318,10 +324,10 @@ The broker was tested with following clients:
 * (Pmant) fix publish on subscribe
 
 ### 0.2.14 (2015-11-21)
-* (bluefox) fix error with wrong variable names 
+* (bluefox) fix error with wrong variable names
 
 ### 0.2.13 (2015-11-20)
-* (Pmant) fix error with wrong variable name 
+* (Pmant) fix error with wrong variable name
 
 ### 0.2.12 (2015-11-14)
 * (Pmant) send last known value on subscription (server)
