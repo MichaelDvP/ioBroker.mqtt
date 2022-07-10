@@ -1,9 +1,9 @@
 ![Logo](admin/mqtt.png)
 # ioBroker MQTT
 
-![Number of Installations](http://iobroker.live/badges/mqtt-installed.svg)
-![Number of Installations](http://iobroker.live/badges/mqtt-stable.svg)
-[![NPM version](http://img.shields.io/npm/v/iobroker.mqtt.svg)](https://www.npmjs.com/package/iobroker.mqtt)
+![Number of Installations](https://iobroker.live/badges/mqtt-installed.svg)
+![Number of Installations](https://iobroker.live/badges/mqtt-stable.svg)
+[![NPM version](https://img.shields.io/npm/v/iobroker.mqtt.svg)](https://www.npmjs.com/package/iobroker.mqtt)
 
 ![Test and Release](https://github.com/ioBroker/ioBroker.mqtt/workflows/Test%20and%20Release/badge.svg)
 [![Translation status](https://weblate.iobroker.net/widgets/adapters/-/mqtt/svg-badge.svg)](https://weblate.iobroker.net/engage/adapters/?utm_source=widget)
@@ -158,6 +158,12 @@ The broker was tested with following clients:
 -->
 
 ## Changelog
+### 4.0.7 (2022-06-28)
+* (Apollon77/kleinOr) Remove unneeded dependency
+
+### 4.0.6 (2022-06-19)
+* (bluefox) Corrected sentry issue
+
 ### 4.0.4 (2022-05-30)
 * (Apollon77) lower loglevel for log messages about messages with unknown message IDs to info
 
