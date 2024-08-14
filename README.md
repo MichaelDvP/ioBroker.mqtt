@@ -159,6 +159,9 @@ The broker was tested with the following clients:
 -->
 
 ## Changelog
+### 6.0.2 (2024-08-13)
+* (bluefox) Added a space to the connection string for better readability
+
 ### 6.0.1 (2024-08-06)
 * (foxriver76) remove binary state handling as these are no longer existing
 * (klein0r) handle the messages as a state object if properties are valid
@@ -174,12 +177,6 @@ The broker was tested with the following clients:
 
 ### 5.1.0 (2023-10-11)
 * (bluefox) Added security check if the server is available from the internet without protection
-
-### 5.0.0 (2023-09-18)
-* (klein0r) Added blockly block for custom messages (sendMessage2Client)
-* (klein0r) Added retain flag for sendMessage2Client
-* (klein0r) Removed support for Admin 4 UI (materialize)
-* (bluefox) Minimal supported node.js version is 16
 
 ## License
 
