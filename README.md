@@ -159,6 +159,9 @@ The broker was tested with the following clients:
 -->
 
 ## Changelog
+### 6.1.1 (2024-08-29)
+* (bluefox) Added information about connected clients in the server mode
+
 ### 6.0.2 (2024-08-13)
 * (bluefox) Added a space to the connection string for better readability
 
@@ -174,9 +177,6 @@ The broker was tested with the following clients:
 * (ticaki) fixed: confirm onMessage()
 * (orpheus55) Added the authentication validation to request processing
 * (theimo1221) Added an option to filter certain topics
-
-### 5.1.0 (2023-10-11)
-* (bluefox) Added security check if the server is available from the internet without protection
 
 ## License
 
