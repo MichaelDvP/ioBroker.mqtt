@@ -1,0 +1,22 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "noEmit": true,
+        "allowJs": true,
+        "checkJs": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "inlineSources": true,
+
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "target": "es2022",
+        "esModuleInterop": true,
+        "types": ["@types/node", "@iobroker/types"],
+    },
+    "include": ["lib/**/*.js", "main.js"],
+    "exclude": ["node_modules/**", "admin/**"]
+}

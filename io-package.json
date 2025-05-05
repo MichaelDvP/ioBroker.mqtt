@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "mqtt",
-    "version": "6.1.2",
+    "version": "6.1.3",
     "news": {
+      "6.1.3": {
+        "en": "Corrected TLS communication\nPackages updated",
+        "de": "Korrigierte TLS-Kommunikation\nPakete aktualisiert",
+        "ru": "Исправленная связь TLS\nОбновленные пакеты",
+        "pt": "Comunicação TLS corrigida\nPacotes atualizados",
+        "nl": "Gecorrigeerde TLS-communicatie\nPakketten bijgewerkt",
+        "fr": "Communication TLS corrigée\nMise à jour des paquets",
+        "it": "Corretto comunicazione TLS\nPacchetti aggiornati",
+        "es": "Comunicación corregida del TLS\nPaquetes actualizados",
+        "pl": "Poprawiona komunikacja TLS\nAktualizacja pakietów",
+        "uk": "Виправлено комунікацію TLS\nПакети оновлені",
+        "zh-cn": "更正的 TLS 通信\n更新软件包"
+      },
       "6.1.2": {
         "en": "Corrected error if the client has no ID",
         "de": "Fehler behoben, wenn der Client keine ID hat",
@@ -80,19 +93,6 @@
         "pl": "stałe: potwierdzenie wiadomości ()\nDodano potwierdzenie uwierzytelniania, aby zażądać przetwarzania\nDodano opcję filtrowania niektórych tematów",
         "uk": "фіксована: підтвердження наMessage()\nДодано перевірку автентичності для обробки запитів\nДодана можливість фільтрувати певні теми",
         "zh-cn": "固定: 在Message上确认( )\n添加认证验证到请求处理中\n添加了过滤某些话题的选项"
-      },
-      "5.1.0": {
-        "en": "Added security check if the server is available from the internet without protection",
-        "de": "Sicherheitsüberprüfung hinzugefügt, wenn der Server im Internet ohne Schutz verfügbar ist",
-        "ru": "Добавлена проверка безопасности, если сервер доступен из интернета без защиты",
-        "pt": "Verificação de segurança adicionada se o servidor estiver disponível na internet sem proteção",
-        "nl": "Controleer of de server beschikbaar is van het internet zonder bescherming",
-        "fr": "Vérification de sécurité supplémentaire si le serveur est disponible sur Internet sans protection",
-        "it": "Aggiunto controllo di sicurezza se il server è disponibile da internet senza protezione",
-        "es": "Control de seguridad adicional si el servidor está disponible en Internet sin protección",
-        "pl": "W przypadku, gdy serwer jest dostępny z Internetu bez ochrony",
-        "uk": "Додано контроль безпеки, якщо сервер доступний з Інтернету без захисту",
-        "zh-cn": "如果没有保护,如果服务器可以从互联网上查看安全检查。"
       }
     },
     "titleLang": {
@@ -141,13 +141,13 @@
     "messagebox": true,
     "readme": "https://github.com/ioBroker/ioBroker.mqtt/blob/master/README.md",
     "loglevel": "info",
-    "icon": "mqtt.png",
+    "icon": "mqtt.svg",
     "keywords": [
       "notification",
       "MQTT",
       "message"
     ],
-    "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.mqtt/master/admin/mqtt.png",
+    "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.mqtt/master/admin/mqtt.svg",
     "type": "protocols",
     "plugins": {
       "sentry": {
