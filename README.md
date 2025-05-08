@@ -147,6 +147,13 @@ The broker was tested with the following clients:
 - http://mqttfx.jfx4ee.org/
 - http://www.eclipse.org/paho/clients/tool/
 
+### Client objects
+In server mode, the mqtt broker creates for every connected client the corresponding object in the ioBroker. The object will be created with the name `mqtt.0.info.clients.<clientId>`. The clientId is the unique identifier of the client.
+
+You can disable the creation of the client objects in the instance settings. (**Do not create client objects**)
+
+Note: If you have some client that connects and disconnects very often, the list of client objects will not be updated at all.
+
 ## Todo
 * Implement resend of `QoS 2` messages after a while.
   Whenever a packet gets lost on the way, the sender is responsible for resending the last message after a reasonable amount of time. This is true when the sender is a MQTT client and also when a MQTT broker sends a message.
@@ -160,6 +167,10 @@ The broker was tested with the following clients:
 -->
 
 ## Changelog
+### 6.1.4 (2025-05-07)
+* (bluefox) Allowed disabling the client objects creation
+* (bluefox) Create client objects with timeout (1s) to prevent memory leaks
+
 ### 6.1.3 (2025-05-04)
 * (Code-X77) Corrected TLS communication
 * (bluefox) Packages updated
@@ -172,10 +183,6 @@ The broker was tested with the following clients:
 
 ### 6.0.2 (2024-08-13)
 * (bluefox) Added a space to the connection string for better readability
-
-### 6.0.1 (2024-08-06)
-* (foxriver76) remove binary state handling as these are no longer existing
-* (klein0r) handle the messages as a state object if properties are valid
 
 ## License
 
